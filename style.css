@@ -34,7 +34,43 @@ img {
 }
 
 @media (min-width: 960px) {
-  .header {
-    grid-template-columns: repeat(2, 1fr);
+#main-image {
+  background-image: url(images/museum-480_x_480.jpg);
+}
+}
+
+@media (min-width: 1280px) {
+  #main-image {
+    background-image: url(images/museum-640_x_640.jpg);
+  }
+  }
+
+  @media (min-width: 1600px) {
+    #main-image {
+      background-image: url(images/museum-800_x_800.jpg);
+    }
+    }
+
+@media (max-width: 960px) {
+  #main-image {
+    background-image: url(images/museum-2880_x_1920.jpg);
+  }
+}
+
+@media (max-width: 720px) {
+  #main-image {
+    background-image: url(images/museum-2160_x_1440.jpg);
+  }
+}
+
+@media (max-width: 480px) {
+  #main-image {
+    background-image: url(images/museum-1440_x_960.jpg);
+  }
+}
+
+@media (max-width: 320px) {
+  #main-image {
+    background-image: url(images/museum-960_x_640.jpg);
   }
 }
